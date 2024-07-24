@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>me</title>
+    <style>
+        body{
+            background-image: url(/black-blue-concrete-interior-background.avif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+        }
+
+        .me{
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        }
+
+        .me:hover{
+        filter: none;
+        }
+        
+        .p-link:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .btn{
+            background-color: #00FFFF;
+        }
+        
+        .project{
+            color: #00FFFF;
+        }
+        
+        .skills{
+            color: #00FFFF;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+         <nav class="navbar ">
+            <div class="container-fluid">
+            <h4 class="navbar">Aryan Chaudhary</h4>
+            <div class="panel d-flex justify-content-center">
+                    <a href="#" class="p-link ms-2 text-light">About</a>
+                    <a href="#project" class="p-link ms-4 text-light">Project</a>
+                    <a href="#skills" class="p-link ms-4 text-light">Skills</a>
+            </div>
+             <form class="d-flex" role="search">
+                <a href="/form.html"><button type="button" class="btn">Contact</button></a>
+            </form>
+            </div>
+        </nav>
+        <!-- <div class="navigation h-25  d-flex">
+            <div class="name h-25 d-grid mt-3 ps-2" >
+                <h2>Aryan Chaudhary</h2>
+            </div>
+            <div class="nav d-flex w-75 ">
+                <div class="panel d-flex justify-content-center">
+                    <a href="#project" class="p-link ms-2 text-dark">About</a>
+                    <a href="#project" class="p-link ms-2 text-dark">Project</a>
+                    <a href="#skills" class="p-link ms-2 text-dark">Skills</a>
+                </div>
+                <div class="btns h-25 mt-3">
+                    <a href="/form.html"><button type="button" class="btn btn-primary">Contact</button></a>
+                </div>          
+            </div>  
+        </div> -->
+        <hr>
+    </header>
+    <div class="my-pic d-flex ms-5">
+        <img src="/WhatsApp Image 2024-07-19 at 13.26.13_929af600.jpg" alt="me" class="me image h-75 rounded-circle">
+        <div class="self h-50 w-50 ps-5">
+            <p>Hi there! I'm Aryan Chaudhary, a passionate and dedicated student delving into the world of frontend development. Currently, I'm on an exciting journey to master the art of creating engaging, responsive, and user-friendly web interfaces. My learning path encompasses a blend of HTML, CSS, JavaScript, and modern frameworks like React.</p>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h3 id="project" class="project p-2 text-decoration-underline d-flex justify-content-center">Project</h3>
+        <div class="box1 d-flex">
+            <div class="small-box1 h-75 w-75 ps-3 ">
+                <img src="/html-project.png" alt="html-project" class="h-75 w-75 ms-0 rounded-2">
+                <div class="c-html w-75">
+                    <b>HTML-Project</b>
+                    <p>Description:</p>
+                    <p>Build by using only HTML and little bit CSS in this clone project.</p>
+                </div>
+            </div>
+            <div class="small-box2 h-75 w-75 ps-3">
+                <video class="vid h-75 w-75 rounded-2" autoplay muted >
+                    <source src="/Screen Recording 2024-07-18 233412.mp4" type="video/mp4" class="vid1 h-75 w-75">
+                </video>
+                <div class="c-nike w-75">
+                    <b>Nike Clone Project</b>
+                    <p>Description:</p>
+                    <p>Build by using HTML and Custom CSS in this clone project.</p>
+                </div>
+            </div>
+            <div class="small-box3 h-75 w-75 ps-3">
+                <img src="/Screenshot 2024-07-23 122029.png" alt="weather" class="h-75 w-75 ms-0 rounded-2">
+                <div class="c-weather w-75">
+                    <b>Accuweather Clone Project</b>
+                    <p>Description:</p>
+                    <p>Build by using HTML and Custom CSS in this clone project.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h3 id="skills" class="skills text-decoration-underline d-flex justify-content-center">skills</h3>
+        <ol>
+            <li>HTML</li>
+            <li>CSS
+                <ul>
+                    <li>Bootstrap</li>
+                    <li>TailwindCSS</li>
+                </ul>
+            </li>
+        </ol>  
+    </div>
+</body>
+</html>
